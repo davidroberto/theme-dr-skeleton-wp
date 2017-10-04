@@ -1,0 +1,21 @@
+{% include 'header.twig' %}
+
+    <h1 class="Fz(48px) M(0) Fw(300)! Tt(u) C(#43427d) Fz(26px)--sm">Search results for "{{query}}"</h1>
+
+
+    {% for post in posts %}
+
+        <section class="">
+            <article class="">
+                <a href="{{post.link}}">
+                    <div class="" style="background-image: url({{post.thumbnail.src}}); background-size: cover;">
+                    </div>
+                    <h2 class="">{{post.title}}</h2>
+                </a>
+            </article>
+        </section>
+
+    {% endfor %}
+
+
+{% include 'footer.twig' %}

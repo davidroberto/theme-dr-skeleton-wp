@@ -1,0 +1,38 @@
+.Cl\(b\) {
+  clear: both;
+}
+.C\(\#00b0b1\) {
+  color: #00b0b1;
+}
+.C\(\#43427d\) {
+  color: #43427d;
+}
+.Fw\(300\)\! {
+  font-weight: 300 !important;
+}
+.Fz\(46px\) {
+  font-size: 46px;
+}
+.Fz\(48px\) {
+  font-size: 48px;
+}
+.M\(0\) {
+  margin: 0;
+}
+.Mt\(40vh\) {
+  margin-top: 40vh;
+}
+.Mb\(30vh\) {
+  margin-bottom: 30vh;
+}
+.Ta\(c\) {
+  text-align: center;
+}
+.Tt\(u\) {
+  text-transform: uppercase;
+}
+@media screen and (max-width: 769px) {
+  .Fz\(26px\)--sm {
+    font-size: 26px;
+  }
+}
